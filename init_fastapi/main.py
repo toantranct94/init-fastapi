@@ -39,8 +39,8 @@ def init(
 
 def version_callback(value: bool):
     if value:
-        version = pkg_resources.get_distribution("manage-fastapi").version
-        typer.echo(f"manage-fastapi, version {version}")
+        version = pkg_resources.get_distribution("init-fastapi").version
+        typer.echo(f"init-fastapi, version {version}")
         raise typer.Exit()
 
 
