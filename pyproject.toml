@@ -3,7 +3,7 @@ requires = ["hatchling"]
 build-backend = "hatchling.build"
 
 [project]
-name = "manage-fastapi"
+name = "init-fastapi"
 description = "Managing FastAPI projects made easy."
 version = "1.0.0"
 authors = [

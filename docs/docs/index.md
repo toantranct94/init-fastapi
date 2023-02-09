@@ -2,26 +2,26 @@
     <strong>Manage FastAPI projects easily</strong>
 </h3>
 <p align="center">
-    <a href="https://github.com/ycd/manage-fastapi" target="_blank">
+    <a href="https://github.com/toantranct94/init-fastapi" target="_blank">
         <img src="https://img.shields.io/github/last-commit/ycd/manage-fastapi?style=for-the-badge" alt="Latest Commit">
     </a>
         <img src="https://img.shields.io/github/workflow/status/ycd/manage-fastapi/Test?style=for-the-badge">
         <img src="https://img.shields.io/codecov/c/github/ycd/manage-fastapi?style=for-the-badge">
     <br />
-    <a href="https://pypi.org/project/manage-fastapi" target="_blank">
-        <img src="https://img.shields.io/pypi/v/manage-fastapi?style=for-the-badge" alt="Package version">
+    <a href="https://pypi.org/project/init-fastapi" target="_blank">
+        <img src="https://img.shields.io/pypi/v/init-fastapi?style=for-the-badge" alt="Package version">
     </a>
-    <img src="https://img.shields.io/pypi/pyversions/manage-fastapi?style=for-the-badge">
-    <img src="https://img.shields.io/github/license/ycd/manage-fastapi?style=for-the-badge">
+    <img src="https://img.shields.io/pypi/pyversions/init-fastapi?style=for-the-badge">
+    <img src="https://img.shields.io/github/license/toantranct94/init-fastapi?style=for-the-badge">
 </p>
 
 
 
 ---
 
-**Documentation**: View it on [website](https://ycd.github.io/manage-fastapi/)
+**Documentation**: View it on [website](https://ycd.github.io/init-fastapi/)
 
-**Source Code**: View it on [Github](https://github.com/ycd/manage-fastapi/)
+**Source Code**: View it on [Github](https://github.com/toantranct94/init-fastapi/)
 
 
 ---
@@ -34,7 +34,7 @@
 
 ## Installation
 
-Manage FastAPI can be installed by running `pip install manage-fastapi`. It requires Python 3.7+ to run.
+Manage FastAPI can be installed by running `pip install init-fastapi`. It requires Python 3.7+ to run.
 
 ## Usage
 

@@ -6,8 +6,8 @@ theme:
     accent: 'orange'
   font:
     text: 'Ubuntu'
-repo_name: ycd/Manage-FastAPI
-repo_url: https://github.com/ycd/manage-fastapi
+repo_name: toantranct94/Init-FastAPI
+repo_url: https://github.com/toantranct94/init-fastapi
 
 nav:
 - Manage FastAPI: index.md

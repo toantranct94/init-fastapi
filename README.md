@@ -1,5 +1,5 @@
 <div align="center">
-<h1>manage-fastapi</h1>
+<h1>init-fastapi</h1>
 
 [init-fastapi](https://github.com/toantranct94/init-fastapi) Project generator for FastAPI
 
