@@ -1,16 +1,18 @@
 
 from typing import List, Union
 
-from pydantic import AnyHttpUrl, BaseSettings, validator
+from pydantic import BaseSettings, validator
 
 
 
 class Settings(BaseSettings):
     APP_NAME: str
-    BACKEND_CORS_ORIGINS: List[AnyHttpUrl] = ["*"]
+    BACKEND_CORS_ORIGINS: List[str] = ["*"]
     API_PREFIX: str = "/api"
 
-    description = ""
+    description = """
+        Description
+    """
     debug: bool = True
 
     @validator("BACKEND_CORS_ORIGINS", pre=True)
