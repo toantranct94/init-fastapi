@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "{{ cookiecutter.name }}"
-version = "0.1.0"
+version = "0.1.2.1"
 description = ""
 {% if cookiecutter.username != None %}authors = ["{{ cookiecutter.username }} <{{ cookiecutter.email }}>"]{% endif %}
 
