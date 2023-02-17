@@ -18,10 +18,10 @@ app = typer.Typer(
 def init(
     name: str,
     database: Optional[Database] = typer.Option(None, case_sensitive=False),
-    docker: bool = typer.Option(False),
+    docker: bool = typer.Option(True),
     license_: Optional[License] = typer.Option(None, "--license", case_sensitive=False),
     packaging: PackageManager = typer.Option(PackageManager.PIP),
-    pre_commit: bool = typer.Option(False, "--pre-commit"),
+    pre_commit: bool = typer.Option(True, "--pre-commit"),
     python: PythonVersion = typer.Option(PythonVersion.THREE_DOT_EIG),
 ):
 
