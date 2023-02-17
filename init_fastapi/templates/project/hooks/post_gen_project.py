@@ -1,4 +1,5 @@
 import os
+import subprocess
 
 from init_fastapi.constants import PackageManager
 
@@ -47,6 +48,12 @@ def set_license():
         remove_paths(["LICENSE"])
 
 
+def set_git():
+    subprocess.call(['git', 'init'])
+    subprocess.call(['git', 'add', '*'])
+    subprocess.call(['git', 'commit', '-m', 'Initial commit'])
+
+
 # TODO(Marcelo): Alter config.py location according to the project complexity.
 # def set_config_location():
 #     database = "{{ cookiecutter.database }}"
@@ -62,6 +69,7 @@ def main():
     set_license()
     set_packaging()
     set_pre_commit()
+    set_git()
 
 
 if __name__ == "__main__":
