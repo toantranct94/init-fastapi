@@ -4,7 +4,6 @@ from typing import List, Union
 from pydantic import BaseSettings, validator
 
 
-
 class Settings(BaseSettings):
     APP_NAME: str
     BACKEND_CORS_ORIGINS: List[str] = ["*"]
