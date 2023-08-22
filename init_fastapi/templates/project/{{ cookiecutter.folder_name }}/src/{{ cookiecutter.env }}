@@ -1,2 +1,3 @@
 APP_NAME={{ cookiecutter.name }}
 BACKEND_CORS_ORIGINS=["*"]
+API_PREFIX=/api
