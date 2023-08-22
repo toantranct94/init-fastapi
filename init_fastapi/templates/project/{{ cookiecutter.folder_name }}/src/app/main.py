@@ -1,7 +1,7 @@
+from app.core.config import settings
+from app.routers.health import router as health_router
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
-from src.core.config import settings
-from src.routers.health import router as health_router
 
 
 def get_application():

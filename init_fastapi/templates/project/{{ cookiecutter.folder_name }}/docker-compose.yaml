@@ -2,8 +2,10 @@ version: "3.10"
 
 services:
   app:
-    build: .
+    build: ./src
     env_file:
       - .env
+    volumes:
+      - ./src/:/usr/src/app/
     ports:
       - "80:8000"
