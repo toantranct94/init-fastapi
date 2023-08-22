@@ -1,28 +1,18 @@
+from typing import List
 
-from typing import List, Union
-
-from pydantic import BaseSettings, validator
+from pydantic_settings import BaseSettings
 
 
 class Settings(BaseSettings):
     APP_NAME: str
-    BACKEND_CORS_ORIGINS: List[str] = ["*"]
-    API_PREFIX: str = "/api"
+    BACKEND_CORS_ORIGINS: List[str]
+    API_PREFIX: str
 
-    description = """
+    description: str = """
         Description
     """
-    debug: bool = True
 
-    @validator("BACKEND_CORS_ORIGINS", pre=True)
-    def assemble_cors_origins(
-        cls, v: Union[str, List[str]]
-    ) -> Union[List[str], str]:
-        if isinstance(v, str) and not v.startswith("["):
-            return [i.strip() for i in v.split(",")]
-        elif isinstance(v, (list, str)):
-            return v
-        raise ValueError(v)
+    debug: bool = True
 
     class Config:
         case_sensitive = True
