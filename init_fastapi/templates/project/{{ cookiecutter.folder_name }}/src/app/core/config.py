@@ -4,6 +4,7 @@ from pydantic_settings import BaseSettings
 
 
 class Settings(BaseSettings):
+
     APP_NAME: str
     BACKEND_CORS_ORIGINS: List[str]
     API_PREFIX: str
