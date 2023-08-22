@@ -1,5 +1,5 @@
 from pydantic import BaseModel, Field
-from src.models.attributes.health import Health as HealthAttrs
+from app.models.attributes.health import Health as HealthAttrs
 
 
 class Status(BaseModel):
