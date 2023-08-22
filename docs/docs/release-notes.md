@@ -6,7 +6,7 @@
 
 * Added MySQL support.
 
-### 1.0.2.4
+### 1.0.2.5
 
 * Add `run` command, previously known as `run-server`.
 * Create a roadmap.
